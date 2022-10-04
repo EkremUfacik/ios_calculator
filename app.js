@@ -64,14 +64,18 @@ container.addEventListener("click", (event) => {
     }
   }
   if (event.target.id === "minus-plus") {
-    num2 = result1.innerText;
-    num2 *= -1;
-    result1.innerText = num2;
+    if (num2 !== "") {
+      num2 = result1.innerText;
+      num2 *= -1;
+      result1.innerText = num2;
+    }
   }
   if (event.target.id === "percent") {
-    num2 = result1.innerText;
-    num2 /= 100;
-    result1.innerText = num2;
+    if (num2 !== "") {
+      num2 = result1.innerText;
+      num2 /= 100;
+      result1.innerText = num2;
+    }
   }
 });
 
