@@ -7,7 +7,7 @@
  are used in this project.
  
  
-[LIVE SHARE](https://ekremufacik.github.io/ios-calculator/)
+[LIVE SHARE](https://ekremufacik.github.io/ios_calculator/)
 
 <img src=".\calculator-gif.gif" alt="calculator-gif" style="zoom: 200%;" />
 
